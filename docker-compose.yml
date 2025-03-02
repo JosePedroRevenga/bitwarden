@@ -7,8 +7,7 @@
         volumes:
           - ./bw-data:/data
         ports:
-          - "80:80"
-          - "443:443"
+          - "88:88"
         environment:
           WEBSOCKET_ENABLED: "true" # Enable WebSocket notifications
           SIGNUPS_ALLOWED: ${SIGNUPS_ALLOWED}  # Disable signups (set to "true" to allow)
